@@ -1,6 +1,6 @@
 <h1> hi man this page is working</h>
 {% for s in data %}
 
-<h2> <a href="{% url 'details' s.id %}">{{ s.question }}</a></h2>
+<h2> <a href="{% url 'first:index' s.id %}">{{ s.question }}</a></h2>
 {% endfor %}
 
